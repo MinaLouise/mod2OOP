@@ -30,8 +30,8 @@ class Membership{
             isMember = " -";
         }
         donation.add(book);
-        System.out.println(book + " :donated by "+donator+isMember);
-        shelves.add(book);
+        String donationInfo = book + " :donated by "+donator+isMember;
+        shelves.add(donationInfo);
     }
 }
 
